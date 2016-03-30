@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no")
+		title Materialize Jade Project
+		link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+		link(rel="stylesheet", href="css/materialize.css", media="screen,projection")
+		link(rel="stylesheet", href="css/style.css", media="screen,projection")
+	body
+		nav.pink(role="navigation")
+			.nav-wrapper.container
+				a.brand-logo(href="#" id="logo-container") 芪闻异事
+				ul.right.hide-on-med-and-down
+					li
+						a.waves-effect(href="#") 博客
+					li
+						a.waves-effect(href="#") 关于
+				ul.side-nav(id="nav-mobile")
+					li
+						a.waves-effect(href="#") 博客
+					li
+						a.waves-effect(href="#") 关于
+				a.button-collapse(href="#" data-activates="nav-mobile")
+					i.fa.fa-bars
+
+		//- h1 dfsdfds
+		//- i.fa-bars
+		script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+		script(src="js/materialize.js")
+		script(src="js/main.js")
+		script(src="js/init.js")
